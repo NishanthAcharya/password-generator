@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NishPass</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>NishPass</h1>
+    </header>
+
+    <section>
+      <div class="displayPassword">
+        🔐
+        <div class="result">Your password will appear here</div>
+      </div>
+
+      <div class="inputs">
+        <form>
+          <label>Password Length : <input class="len" type="number" /></label>
+
+          <label
+            ><input type="checkbox" class="upper" /> Include Uppercase</label
+          >
+          <label
+            ><input type="checkbox" class="lower" /> Include Lowercase</label
+          >
+          <label><input type="checkbox" class="num" /> Include Numbers</label>
+          <label
+            ><input type="checkbox" class="symbol" /> Include Symbols</label
+          >
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <button class="generatePass">Generate Password</button>
+      <button class="copy">copy Password</button>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
