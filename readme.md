@@ -6,6 +6,11 @@ NishPass helps users generate strong and secure passwords with customizable opti
 
 ---
 
+## click this link to see 
+https://nishanthacharya.github.io/password-generator/
+
+---
+
 ## Features
 
 - Generate random passwords
